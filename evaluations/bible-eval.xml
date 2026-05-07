@@ -1,0 +1,42 @@
+<evaluation>
+  <qa_pair>
+    <question>What is the exact text of the shortest verse in the King James Bible (KJV), and which verse reference is it?</question>
+    <answer>John 11:35 — "Jesus wept."</answer>
+  </qa_pair>
+  <qa_pair>
+    <question>How many books are in the King James Bible (KJV)?</question>
+    <answer>66</answer>
+  </qa_pair>
+  <qa_pair>
+    <question>In the KJV, what word does 1 Corinthians 13:13 say is "the greatest of these"? (Note: the KJV uses a different word than many modern translations.)</question>
+    <answer>charity</answer>
+  </qa_pair>
+  <qa_pair>
+    <question>How many verses does Psalm 119 have in the King James Bible?</question>
+    <answer>176</answer>
+  </qa_pair>
+  <qa_pair>
+    <question>In the New International Version (NIV), what does Genesis 1:1 say? Give the exact text.</question>
+    <answer>In the beginning God created the heavens and the earth.</answer>
+  </qa_pair>
+  <qa_pair>
+    <question>Compare John 3:16 between KJV and NIV. The KJV says "only begotten Son" — what phrase does the NIV use instead of "only begotten Son"?</question>
+    <answer>one and only Son</answer>
+  </qa_pair>
+  <qa_pair>
+    <question>How many chapters does the book of Revelation have in the KJV?</question>
+    <answer>22</answer>
+  </qa_pair>
+  <qa_pair>
+    <question>How many books in the KJV start with the letter "J"? List them.</question>
+    <answer>9 books: Joshua, Judges, Job, Jeremiah, Joel, Jonah, John, James, Jude</answer>
+  </qa_pair>
+  <qa_pair>
+    <question>What is the very last verse of the Bible (Revelation 22:21) in the King James Version?</question>
+    <answer>The grace of our Lord Jesus Christ be with you all. Amen.</answer>
+  </qa_pair>
+  <qa_pair>
+    <question>How many English Bible versions are available in the dataset? Count only versions under the "en" locale.</question>
+    <answer>44</answer>
+  </qa_pair>
+</evaluation>
