@@ -3,23 +3,18 @@
   "version": "1.0.0",
   "description": "MCP server for querying Bible versions, books, chapters, and verses from the Bible-json dataset",
   "type": "module",
-  "main": "dist/index.js",
+  "main": "src/index.ts",
   "bin": {
     "bible-mcp": "bin/bible-mcp"
   },
   "scripts": {
-    "build": "tsc",
-    "bundle": "bun build src/index.ts --compile --outfile bin/bible-mcp --target bun",
-    "start": "node dist/index.js",
-    "dev": "tsc --watch",
-    "inspector": "npx @modelcontextprotocol/inspector node dist/index.js"
+    "dev": "bun run src/index.ts",
+    "build": "bun build src/index.ts --compile --outfile bin/bible-mcp --target bun",
+    "inspector": "bunx @modelcontextprotocol/inspector bun run src/index.ts",
+    "test": "bun test"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.12.1",
     "zod": "^3.25.28"
-  },
-  "devDependencies": {
-    "@types/node": "^22.15.17",
-    "typescript": "^5.8.3"
   }
 }

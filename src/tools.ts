@@ -8,7 +8,7 @@ import {
   getPassage,
   search,
   compare,
-} from "./bible-data.js";
+} from "./bible-data";
 
 export function registerTools(server: McpServer): void {
   server.registerTool(

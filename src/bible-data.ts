@@ -7,7 +7,7 @@ import type {
   VerseResult,
   SearchResult,
   ComparisonResult,
-} from "./types.js";
+} from "./types";
 
 function findDataRoot(): string {
   if (process.env.BIBLE_DATA_ROOT) return process.env.BIBLE_DATA_ROOT;
